@@ -19,7 +19,16 @@ public:
     MainWindow(QWidget *parent = nullptr);
     ~MainWindow();
 
+
+private slots:
+    void on_RoutineBut_clicked();
+
+    void on_SyllabusBut_clicked();
+
+    void on_ToDoBut_clicked();
+
 private:
     Ui::MainWindow *ui;
 };
+
 #endif // MAINWINDOW_H

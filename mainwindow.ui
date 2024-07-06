@@ -47,7 +47,7 @@
 	background-color:rgb(206, 217, 255)
 }</string>
       </property>
-      <widget class="QPushButton" name="pushButton_2">
+      <widget class="QPushButton" name="SyllabusBut">
        <property name="geometry">
         <rect>
          <x>0</x>
@@ -98,7 +98,7 @@ QPushButton:checked{
         <bool>true</bool>
        </property>
       </widget>
-      <widget class="QPushButton" name="pushButton_4">
+      <widget class="QPushButton" name="RoutineBut">
        <property name="geometry">
         <rect>
          <x>0</x>
@@ -216,7 +216,7 @@ QPushButton:checked{
         </item>
        </layout>
       </widget>
-      <widget class="QPushButton" name="pushButton_3">
+      <widget class="QPushButton" name="ToDoBut">
        <property name="geometry">
         <rect>
          <x>0</x>
@@ -277,22 +277,9 @@ background-color:rgb(255, 238, 239);
 border-radius:30px
 }</string>
       </property>
-      <widget class="QWidget" name="stackedWidgetPage1" native="true">
-       <layout class="QVBoxLayout" name="verticalLayout_4">
-        <property name="leftMargin">
-         <number>0</number>
-        </property>
-        <property name="topMargin">
-         <number>0</number>
-        </property>
-        <property name="rightMargin">
-         <number>0</number>
-        </property>
-        <property name="bottomMargin">
-         <number>0</number>
-        </property>
-       </layout>
-      </widget>
+      <widget class="QWidget" name="RoutinePage"/>
+      <widget class="QWidget" name="ToDoPage"/>
+      <widget class="QWidget" name="SyllabusPage"/>
      </widget>
     </item>
    </layout>
