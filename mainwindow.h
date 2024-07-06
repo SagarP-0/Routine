@@ -27,6 +27,14 @@ private slots:
 
     void on_ToDoBut_clicked();
 
+    void on_pushButton_clicked();
+
+    void on_AddTaskBut_clicked();
+
+    void on_DeleteTaskBut_clicked();
+
+    void on_DeleteAllTasksBut_clicked();
+
 private:
     Ui::MainWindow *ui;
 };

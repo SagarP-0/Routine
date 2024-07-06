@@ -278,7 +278,107 @@ border-radius:30px
 }</string>
       </property>
       <widget class="QWidget" name="RoutinePage"/>
-      <widget class="QWidget" name="ToDoPage"/>
+      <widget class="QWidget" name="ToDoPage">
+       <widget class="QLineEdit" name="tasktextbox">
+        <property name="geometry">
+         <rect>
+          <x>40</x>
+          <y>30</y>
+          <width>511</width>
+          <height>51</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">QLineEdit{
+background:rgb(255, 251, 251);
+border: 2px solid gray;
+ border-radius: 10px;
+}</string>
+        </property>
+       </widget>
+       <widget class="QPushButton" name="AddTaskBut">
+        <property name="geometry">
+         <rect>
+          <x>560</x>
+          <y>30</y>
+          <width>91</width>
+          <height>51</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">border: 2px solid gray;
+border-radius: 10px;
+background-color:rgb(255, 255, 255);
+font:bold;
+color:black;
+</string>
+        </property>
+        <property name="text">
+         <string>AddTask</string>
+        </property>
+       </widget>
+       <widget class="QListWidget" name="listWidget">
+        <property name="geometry">
+         <rect>
+          <x>30</x>
+          <y>110</y>
+          <width>651</width>
+          <height>541</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">QListWidget{
+padding-top:10px;
+padding-left:10px;
+background:rgb(255, 251, 251);
+border: 2px solid gray;
+ border-radius: 25px;
+}</string>
+        </property>
+       </widget>
+       <widget class="QPushButton" name="DeleteAllTasksBut">
+        <property name="geometry">
+         <rect>
+          <x>550</x>
+          <y>660</y>
+          <width>121</width>
+          <height>51</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">border: 2px solid gray;
+border-radius: 10px;
+background-color:rgb(255, 255, 255);
+font:bold;
+color:black;
+</string>
+        </property>
+        <property name="text">
+         <string>Delete All Tasks</string>
+        </property>
+       </widget>
+       <widget class="QPushButton" name="DeleteTaskBut">
+        <property name="geometry">
+         <rect>
+          <x>420</x>
+          <y>660</y>
+          <width>121</width>
+          <height>51</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">border: 2px solid gray;
+border-radius: 10px;
+background-color:rgb(255, 255, 255);
+font:bold;
+color:black;
+</string>
+        </property>
+        <property name="text">
+         <string>Delete Task</string>
+        </property>
+       </widget>
+      </widget>
       <widget class="QWidget" name="SyllabusPage"/>
      </widget>
     </item>
