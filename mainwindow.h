@@ -3,7 +3,7 @@
 
 #include <QMainWindow>
 #include <QStackedWidget>
-
+#include <QStandardPaths>
 
 QT_BEGIN_NAMESPACE
 namespace Ui {
@@ -27,8 +27,6 @@ private slots:
 
     void on_ToDoBut_clicked();
 
-    void on_pushButton_clicked();
-
     void on_AddTaskBut_clicked();
 
     void on_DeleteTaskBut_clicked();
@@ -37,6 +35,8 @@ private slots:
 
 private:
     Ui::MainWindow *ui;
+
+    QString path = QStandardPaths::writableLocation(QStandardPaths::DocumentsLocation)+"\\todofile.txt";
 };
 
 #endif // MAINWINDOW_H

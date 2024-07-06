@@ -1,5 +1,7 @@
 #include "mainwindow.h"
 #include "./ui_mainwindow.h"
+#include<QFile>
+#include<QMessageBox>
 
 MainWindow::MainWindow(QWidget *parent)
     : QMainWindow(parent)
@@ -10,16 +12,53 @@ MainWindow::MainWindow(QWidget *parent)
     //first page to be routine page
     ui->stackedWidget->setCurrentIndex(0);
 
+    //doing in inside the constructor
     //storing tododlist data
-    //QFile file()
+    QFile file(path);
+
+    //if no file create it.
+    if(!file.open(QIODevice::ReadWrite)){
+        QMessageBox::information(0,"Error",file.errorString());
+    }
+
+    //file from QFile file., accessing textstream
+    QTextStream filein(&file);
+
+    //reading item from the file same syntax as in reading from textbox
+    while(!filein.atEnd()){
+        QListWidgetItem* item = new QListWidgetItem(filein.readLine(),ui->listWidget);
+        ui->listWidget->addItem(item);
+    }
+    file.close();
+
 }
 
 MainWindow::~MainWindow()
 {
     delete ui;
+
+    //using destructor to ig save data to the file
+    QFile file(path);
+
+    //if no file create it.
+    if(!file.open(QIODevice::ReadWrite)){
+        QMessageBox::information(0,"Error",file.errorString());
+    }
+
+    //file from QFile file., accessing textstream
+    QTextStream fileout(&file);
+
+    //reading item from the file same syntax as in reading from textbox
+    //everything similar upto here
+    for(int i=0; i<ui->listWidget->count(); ++i){
+        //similar to cout
+        fileout<<ui->listWidget->item(i)->text()<<"\n";
+    }
+
+    file.close();
 }
 
-//buttons to switch  betn pages
+//buttons to switch  betn pages in stacked widgets.
 
 void MainWindow::on_RoutineBut_clicked()
 {
@@ -48,8 +87,11 @@ void MainWindow::on_AddTaskBut_clicked()
     //to be editable (stackoflol)
     //item->setFlags(item->flags() | Qt::ItemIsEditable);
     //clearing textbox after adding
+
     ui->tasktextbox->clear();
+
     //focusing on textbox after adding
+
     ui->tasktextbox->setFocus();
 }
 

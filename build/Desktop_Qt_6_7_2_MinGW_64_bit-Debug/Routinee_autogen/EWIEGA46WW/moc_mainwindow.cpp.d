@@ -1,5 +1,6 @@
 D:/ProjectQt/Routinee/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/Routinee_autogen/EWIEGA46WW/moc_mainwindow.cpp: D:/ProjectQt/Routinee/mainwindow.h \
   D:/ProjectQt/Routinee/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/Routinee_autogen/moc_predefs.h \
+  C:/Qt/6.7.2/mingw_64/include/QtCore/QStandardPaths \
   C:/Qt/6.7.2/mingw_64/include/QtCore/q20functional.h \
   C:/Qt/6.7.2/mingw_64/include/QtCore/q20memory.h \
   C:/Qt/6.7.2/mingw_64/include/QtCore/q20type_traits.h \
@@ -78,6 +79,7 @@ D:/ProjectQt/Routinee/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/Routinee_autogen
   C:/Qt/6.7.2/mingw_64/include/QtCore/qsharedpointer.h \
   C:/Qt/6.7.2/mingw_64/include/QtCore/qsharedpointer_impl.h \
   C:/Qt/6.7.2/mingw_64/include/QtCore/qsize.h \
+  C:/Qt/6.7.2/mingw_64/include/QtCore/qstandardpaths.h \
   C:/Qt/6.7.2/mingw_64/include/QtCore/qstring.h \
   C:/Qt/6.7.2/mingw_64/include/QtCore/qstringalgorithms.h \
   C:/Qt/6.7.2/mingw_64/include/QtCore/qstringbuilder.h \
