@@ -40,8 +40,8 @@ MainWindow::~MainWindow()
     //using destructor to ig save data to the file
     QFile file(path);
 
-    //if no file create it.
-    if(!file.open(QIODevice::ReadWrite)){
+    //if no file create it. !!WRITEONLY!!!
+    if(!file.open(QIODevice::WriteOnly)){
         QMessageBox::information(0,"Error",file.errorString());
     }
 

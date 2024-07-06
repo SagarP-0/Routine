@@ -75,13 +75,13 @@
 			{
 				"command" : 4,
 				"file" : 1,
-				"line" : 66,
+				"line" : 65,
 				"parent" : 0
 			},
 			{
 				"command" : 5,
 				"file" : 1,
-				"line" : 49,
+				"line" : 48,
 				"parent" : 0
 			},
 			{
@@ -365,19 +365,18 @@
 				0,
 				1,
 				2,
-				7,
-				12
+				9
 			]
 		}
 	],
 	"dependencies" : 
 	[
 		{
-			"id" : "Routinee_autogen_timestamp_deps::@6890427a1f51a3e7e1df"
-		},
-		{
 			"backtrace" : 0,
 			"id" : "Routinee_autogen::@6890427a1f51a3e7e1df"
+		},
+		{
+			"id" : "Routinee_autogen_timestamp_deps::@6890427a1f51a3e7e1df"
 		}
 	],
 	"id" : "Routinee::@6890427a1f51a3e7e1df",
@@ -490,8 +489,7 @@
 				0,
 				1,
 				2,
-				7,
-				12
+				9
 			]
 		},
 		{
@@ -500,8 +498,7 @@
 			[
 				3,
 				6,
-				9,
-				10
+				7
 			]
 		},
 		{
@@ -510,16 +507,15 @@
 			[
 				4,
 				5,
-				8,
-				11
+				8
 			]
 		},
 		{
 			"name" : "CMake Rules",
 			"sourceIndexes" : 
 			[
-				13,
-				14
+				10,
+				11
 			]
 		}
 	],
@@ -565,26 +561,9 @@
 			"sourceGroupIndex" : 1
 		},
 		{
-			"backtrace" : 4,
-			"compileGroupIndex" : 0,
-			"path" : "todolist.cpp",
-			"sourceGroupIndex" : 0
-		},
-		{
-			"backtrace" : 4,
-			"path" : "todolist.ui",
-			"sourceGroupIndex" : 2
-		},
-		{
 			"backtrace" : 0,
 			"isGenerated" : true,
 			"path" : "build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/Routinee_autogen/include/ui_mainwindow.h",
-			"sourceGroupIndex" : 1
-		},
-		{
-			"backtrace" : 0,
-			"isGenerated" : true,
-			"path" : "build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/Routinee_autogen/include/ui_todolist.h",
 			"sourceGroupIndex" : 1
 		},
 		{
