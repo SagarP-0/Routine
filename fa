@@ -1,0 +1,47 @@
+[33mcommit 864d406df532b65ebe7e3215039f2f075fad0315[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmain[m[33m, [m[1;31morigin/main[m[33m)[m
+Author: Sagar Parajuli <parajuli.sagar759@gmail.com>
+Date:   Sat Jul 6 17:03:58 2024 +0545
+
+    laid out, scalable, finalized todo list. Missing : Checkboxes, divisions.
+
+[33mcommit 56eb1e9b190f780f1b72c6da53caaec6bbcd7b08[m[33m ([m[1;32mfinaltodolist[m[33m)[m
+Author: Sagar Parajuli <parajuli.sagar759@gmail.com>
+Date:   Sat Jul 6 15:01:36 2024 +0545
+
+    minor error fixings related to memory
+
+[33mcommit 7b6e833ae1ab793df968dab9383f8c351db95288[m
+Author: Sagar Parajuli <parajuli.sagar759@gmail.com>
+Date:   Sat Jul 6 14:19:02 2024 +0545
+
+    completetly working but ugly todolist app
+
+[33mcommit c8012f43c10807da6c65be5263ef7476a6518af4[m[33m ([m[1;32mrecoverytodolist[m[33m)[m
+Author: Sagar Parajuli <parajuli.sagar759@gmail.com>
+Date:   Sat Jul 6 13:38:02 2024 +0545
+
+    working todolist except layouts, data saving, and keyevents
+
+[33mcommit 966a783bec11cf3f5804b14cbdc2faac9efde529[m
+Author: Sagar Parajuli <parajuli.sagar759@gmail.com>
+Date:   Sat Jul 6 12:20:48 2024 +0545
+
+    connected buttons to widget pages for now
+
+[33mcommit 23fe5791a87fdf67359c682bd4fc2751dfaf4e51[m
+Author: Sagar Parajuli <parajuli.sagar759@gmail.com>
+Date:   Fri Jul 5 22:44:35 2024 +0545
+
+    hopefully no error push paxi
+
+[33mcommit 38269bcb881f3b8206d91f8309a9fa5884d9c4dc[m[33m ([m[1;32mtodolist[m[33m)[m
+Author: Sagar Parajuli <parajuli.sagar759@gmail.com>
+Date:   Fri Jul 5 22:09:04 2024 +0545
+
+    done every  ui except for stacked widgets to be done later
+
+[33mcommit 0cd2c1cde75bf04d7671516665901e8566ec0566[m[33m ([m[1;31morigin/todolist[m[33m)[m
+Author: Sagar Parajuli <parajuli.sagar759@gmail.com>
+Date:   Fri Jul 5 12:10:52 2024 +0545
+
+    First push

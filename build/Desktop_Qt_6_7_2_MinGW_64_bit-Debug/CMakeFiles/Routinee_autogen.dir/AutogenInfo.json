@@ -262,6 +262,12 @@
 			"MU",
 			"EWIEGA46WW/moc_mainwindow.cpp",
 			null
+		],
+		[
+			"D:/ProjectQt/Routinee/todolist.h",
+			"MU",
+			"EWIEGA46WW/moc_todolist.cpp",
+			null
 		]
 	],
 	"HEADER_EXTENSIONS" : [ "h", "hh", "h++", "hm", "hpp", "hxx", "in", "txx" ],
@@ -336,7 +342,8 @@
 	"SOURCES" : 
 	[
 		[ "D:/ProjectQt/Routinee/main.cpp", "MU", null ],
-		[ "D:/ProjectQt/Routinee/mainwindow.cpp", "MU", null ]
+		[ "D:/ProjectQt/Routinee/mainwindow.cpp", "MU", null ],
+		[ "D:/ProjectQt/Routinee/todolist.cpp", "MU", null ]
 	],
 	"UIC_OPTIONS" : [],
 	"UIC_SEARCH_PATHS" : [],

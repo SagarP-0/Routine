@@ -7,11 +7,16 @@ MainWindow::MainWindow(QWidget *parent)
     : QMainWindow(parent)
     , ui(new Ui::MainWindow)
 {
+
     ui->setupUi(this);
+    toDoList = new ToDoList(ui->listWidget, ui->tasktextbox, ui->AddTaskBut, ui->DeleteTaskBut, ui->DeleteAllTasksBut, this);
+    //Initializing todolist w/ the widgets from the main window ui
+
 
     //first page to be routine page
     ui->stackedWidget->setCurrentIndex(0);
 
+    /*
     //doing in inside the constructor
     //storing tododlist data
     QFile file(path);
@@ -30,13 +35,15 @@ MainWindow::MainWindow(QWidget *parent)
         ui->listWidget->addItem(item);
     }
     file.close();
+    */
 
 }
 
 MainWindow::~MainWindow()
 {
-    delete ui;
 
+    //this destructor might be being called first (delete ui part)
+    //before todolist destructor so cant put it in the todolist.cpp at the moment!
     //using destructor to ig save data to the file
     QFile file(path);
 
@@ -56,6 +63,9 @@ MainWindow::~MainWindow()
     }
 
     file.close();
+
+    delete ui;
+
 }
 
 //buttons to switch  betn pages in stacked widgets.
@@ -76,7 +86,7 @@ void MainWindow::on_SyllabusBut_clicked()
     ui->stackedWidget->setCurrentIndex(2);
 }
 
-
+/*
 
 void MainWindow::on_AddTaskBut_clicked()
 {
@@ -110,4 +120,4 @@ void MainWindow::on_DeleteAllTasksBut_clicked()
     //self explanatory
     ui->listWidget->clear();
 }
-
+*/

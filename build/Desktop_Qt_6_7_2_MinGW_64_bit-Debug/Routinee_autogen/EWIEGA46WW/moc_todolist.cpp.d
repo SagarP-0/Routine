@@ -1,4 +1,4 @@
-D:/ProjectQt/Routinee/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/Routinee_autogen/EWIEGA46WW/moc_mainwindow.cpp: D:/ProjectQt/Routinee/mainwindow.h \
+D:/ProjectQt/Routinee/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/Routinee_autogen/EWIEGA46WW/moc_todolist.cpp: D:/ProjectQt/Routinee/todolist.h \
   D:/ProjectQt/Routinee/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/Routinee_autogen/moc_predefs.h \
   C:/Qt/6.7.2/mingw_64/include/QtCore/QFile \
   C:/Qt/6.7.2/mingw_64/include/QtCore/QObject \
@@ -163,10 +163,8 @@ D:/ProjectQt/Routinee/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/Routinee_autogen
   C:/Qt/6.7.2/mingw_64/include/QtGui/qwindowdefs_win.h \
   C:/Qt/6.7.2/mingw_64/include/QtWidgets/QLineEdit \
   C:/Qt/6.7.2/mingw_64/include/QtWidgets/QListWidget \
-  C:/Qt/6.7.2/mingw_64/include/QtWidgets/QMainWindow \
   C:/Qt/6.7.2/mingw_64/include/QtWidgets/QMessageBox \
   C:/Qt/6.7.2/mingw_64/include/QtWidgets/QPushButton \
-  C:/Qt/6.7.2/mingw_64/include/QtWidgets/QStackedWidget \
   C:/Qt/6.7.2/mingw_64/include/QtWidgets/qabstractbutton.h \
   C:/Qt/6.7.2/mingw_64/include/QtWidgets/qabstractitemdelegate.h \
   C:/Qt/6.7.2/mingw_64/include/QtWidgets/qabstractitemview.h \
@@ -179,13 +177,11 @@ D:/ProjectQt/Routinee/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/Routinee_autogen
   C:/Qt/6.7.2/mingw_64/include/QtWidgets/qlineedit.h \
   C:/Qt/6.7.2/mingw_64/include/QtWidgets/qlistview.h \
   C:/Qt/6.7.2/mingw_64/include/QtWidgets/qlistwidget.h \
-  C:/Qt/6.7.2/mingw_64/include/QtWidgets/qmainwindow.h \
   C:/Qt/6.7.2/mingw_64/include/QtWidgets/qmessagebox.h \
   C:/Qt/6.7.2/mingw_64/include/QtWidgets/qpushbutton.h \
   C:/Qt/6.7.2/mingw_64/include/QtWidgets/qrubberband.h \
   C:/Qt/6.7.2/mingw_64/include/QtWidgets/qsizepolicy.h \
   C:/Qt/6.7.2/mingw_64/include/QtWidgets/qslider.h \
-  C:/Qt/6.7.2/mingw_64/include/QtWidgets/qstackedwidget.h \
   C:/Qt/6.7.2/mingw_64/include/QtWidgets/qstyle.h \
   C:/Qt/6.7.2/mingw_64/include/QtWidgets/qstyleoption.h \
   C:/Qt/6.7.2/mingw_64/include/QtWidgets/qtabbar.h \
@@ -422,5 +418,4 @@ D:/ProjectQt/Routinee/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/Routinee_autogen
   C:/Qt/Tools/mingw1120_64/x86_64-w64-mingw32/include/time.h \
   C:/Qt/Tools/mingw1120_64/x86_64-w64-mingw32/include/vadefs.h \
   C:/Qt/Tools/mingw1120_64/x86_64-w64-mingw32/include/wchar.h \
-  C:/Qt/Tools/mingw1120_64/x86_64-w64-mingw32/include/wctype.h \
-  D:/ProjectQt/Routinee/todolist.h
+  C:/Qt/Tools/mingw1120_64/x86_64-w64-mingw32/include/wctype.h
