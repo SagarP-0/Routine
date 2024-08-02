@@ -9,6 +9,7 @@
 #include <QLineEdit>
 #include <QPushButton>
 #include<QStandardPaths>
+#include <QCheckBox>
 
 class ToDoList:public QObject
 {
@@ -17,14 +18,17 @@ class ToDoList:public QObject
 
         explicit ToDoList(QListWidget *listWidget, QLineEdit *tasktextbox, QPushButton *AddTaskBut, QPushButton *DeleteTaskBut, QPushButton *DeleteAllTaskBut, QObject *parent = nullptr);
         ~ToDoList();
-        //ToDoList();
 
     private slots:
+
         void on_AddTaskBut_clicked();
         void on_DeleteTaskBut_clicked();
         void on_DeleteAllTasksBut_clicked();
+        void on_ItemChanged(QListWidgetItem *item);
 
     private:
+        void rearrangeItems();
+
         QListWidget *listWidget;
         QLineEdit *taskTextBox;
         QPushButton *addButton;

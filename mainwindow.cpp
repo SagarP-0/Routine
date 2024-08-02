@@ -59,7 +59,7 @@ MainWindow::~MainWindow()
     //everything similar upto here
     for(int i=0; i<ui->listWidget->count(); ++i){
         //similar to cout
-        fileout<<ui->listWidget->item(i)->text()<<"\n";
+        fileout<<ui->listWidget->item(i)->text()<<"\t" << (ui->listWidget->item(i)->checkState() == Qt::Checked ? "1" : "0") << "\n";
     }
 
     file.close();
@@ -87,7 +87,6 @@ void MainWindow::on_SyllabusBut_clicked()
 }
 
 /*
-
 void MainWindow::on_AddTaskBut_clicked()
 {
     //Lising the item in the listwidget

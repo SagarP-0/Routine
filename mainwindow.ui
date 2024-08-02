@@ -21,7 +21,8 @@
   <property name="styleSheet">
    <string notr="true">QMainWindow{
 	background-color:rgb(206, 217, 255)
-}</string>
+}
+</string>
   </property>
   <widget class="QWidget" name="centralwidget">
    <layout class="QHBoxLayout" name="horizontalLayout_3">
@@ -401,7 +402,37 @@ padding-left:10px;
 background:rgb(255, 251, 251);
 border: 2px solid gray;
  border-radius: 25px;
-}</string>
+}
+QListWidget::item{
+padding-top:10px;
+padding-left:10px;
+padding-right:10px;
+padding-bottom:5px;
+border-radius: 10px
+}
+QListWidget::item:selected{
+background-color:rgb(230, 250, 255);
+border:0px;
+color:rgb(0, 0, 0);
+padding-top:10px;
+padding-left:10px;
+padding-right:10px;
+border-radius: 10px
+}
+QListWidget::indicator:checked{
+height:10px;
+width:10px;
+border:2px solid black;
+border-radius:1000px;
+image:url (D:/ProjectQt/Routinee/images/checked.png);
+opacity:0
+}
+
+
+</string>
+          </property>
+          <property name="sortingEnabled">
+           <bool>false</bool>
           </property>
          </widget>
         </item>

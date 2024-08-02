@@ -161,6 +161,7 @@ D:/ProjectQt/Routinee/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/Routinee_autogen
   C:/Qt/6.7.2/mingw_64/include/QtGui/qvalidator.h \
   C:/Qt/6.7.2/mingw_64/include/QtGui/qwindowdefs.h \
   C:/Qt/6.7.2/mingw_64/include/QtGui/qwindowdefs_win.h \
+  C:/Qt/6.7.2/mingw_64/include/QtWidgets/QCheckBox \
   C:/Qt/6.7.2/mingw_64/include/QtWidgets/QLineEdit \
   C:/Qt/6.7.2/mingw_64/include/QtWidgets/QListWidget \
   C:/Qt/6.7.2/mingw_64/include/QtWidgets/QMainWindow \
@@ -173,6 +174,7 @@ D:/ProjectQt/Routinee/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/Routinee_autogen
   C:/Qt/6.7.2/mingw_64/include/QtWidgets/qabstractscrollarea.h \
   C:/Qt/6.7.2/mingw_64/include/QtWidgets/qabstractslider.h \
   C:/Qt/6.7.2/mingw_64/include/QtWidgets/qabstractspinbox.h \
+  C:/Qt/6.7.2/mingw_64/include/QtWidgets/qcheckbox.h \
   C:/Qt/6.7.2/mingw_64/include/QtWidgets/qdialog.h \
   C:/Qt/6.7.2/mingw_64/include/QtWidgets/qdialogbuttonbox.h \
   C:/Qt/6.7.2/mingw_64/include/QtWidgets/qframe.h \
